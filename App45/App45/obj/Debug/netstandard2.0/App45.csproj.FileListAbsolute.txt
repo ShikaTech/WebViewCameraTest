@@ -1,0 +1,9 @@
+C:\VS_WorkSpace\App45\App45\App45\bin\Debug\netstandard2.0\App45.deps.json
+C:\VS_WorkSpace\App45\App45\App45\bin\Debug\netstandard2.0\App45.dll
+C:\VS_WorkSpace\App45\App45\App45\bin\Debug\netstandard2.0\App45.pdb
+C:\VS_WorkSpace\App45\App45\App45\obj\Debug\netstandard2.0\App45.csproj.CoreCompileInputs.cache
+C:\VS_WorkSpace\App45\App45\App45\obj\Debug\netstandard2.0\App45.AssemblyInfoInputs.cache
+C:\VS_WorkSpace\App45\App45\App45\obj\Debug\netstandard2.0\App45.AssemblyInfo.cs
+C:\VS_WorkSpace\App45\App45\App45\obj\Debug\netstandard2.0\App45.dll
+C:\VS_WorkSpace\App45\App45\App45\obj\Debug\netstandard2.0\App45.pdb
+C:\VS_WorkSpace\App45\App45\App45\obj\Debug\netstandard2.0\App45.csprojAssemblyReference.cache
