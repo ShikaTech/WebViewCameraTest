@@ -1,27 +1,24 @@
 ﻿using Plugin.Permissions;
 using Plugin.Permissions.Abstractions;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace App45
 {
-	public partial class MainPage : ContentPage
-	{
+    public partial class MainPage : ContentPage
+    {
         MyWebView _webView;
         Button _button;
         StackLayout stackLayout;
         public MainPage()
-		{
-			InitializeComponent();
-           
-            Task<bool> b=initPer();
-            System.Diagnostics.Debug.Write("permissions============================================================"+ b.Result);
+        {
+            InitializeComponent();
+
+            Task<bool> b = initPer();
+            System.Diagnostics.Debug.Write("permissions============================================================" + b.Result);
             initView();
-            //initPermissions();
+            initPermissions();
 
         }
 
@@ -50,7 +47,7 @@ namespace App45
 
             if (status == PermissionStatus.Granted)
             {
-               
+
             }
             else if (status != PermissionStatus.Unknown)
             {
@@ -60,10 +57,10 @@ namespace App45
 
         private void initView()
         {
-           
+
             _button = new Button
             {
-                Text="add webview",
+                Text = "add webview",
                 WidthRequest = 100,
                 HeightRequest = 50
             };
@@ -83,7 +80,9 @@ namespace App45
         {
             _webView = new MyWebView
             {
-                Source = "https://test.webrtc.org/",
+                //Source = "https://test.webrtc.org/",
+                //Source = "https://cdn.codegrid.net/2017-get-user-media/demo/demo1.html",
+                Source = "https://webrtc.github.io/samples/src/content/getusermedia/record/",
                 WidthRequest = 1000,
                 HeightRequest = 1000
             };
